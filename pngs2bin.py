@@ -6,7 +6,7 @@ from PIL import Image
 parser = argparse.ArgumentParser()
 parser.add_argument('-o', '--output-file', help='Output file', default=None, type=pathlib.Path, required=False)
 parser.add_argument('-f', '--overwrite', help='Overwrite output file', action='store_true', required=False)
-parser.add_argument('pngs', help='Target binary file', type=pathlib.Path, nargs='+')
+parser.add_argument('pngs', help='Sources PNG files', type=pathlib.Path, nargs='+')
 args = parser.parse_args()
 
 

@@ -24,7 +24,7 @@ options:
 pngs2bin.py [-h] [-o OUTPUT_FILE] [-f] pngs [pngs ...]
 
 positional arguments:
-  pngs                  Target binary file
+  pngs                  Sources PNG files
 
 options:
   -h, --help            show this help message and exit
